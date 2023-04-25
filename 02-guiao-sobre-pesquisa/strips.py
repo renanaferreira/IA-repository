@@ -47,9 +47,7 @@ class Operator:
         self.neg = neg
         self.pos = pos
     def __str__(self):
-        return type(self).__name__ + '([' + args2string(self.args) + "]," +  \
-               str(self.pc) + ',' + str(self.neg) + ',' +  \
-               str(self.pos) + ')'
+        ccc
     def __repr__(self):
         argsstr = args2string(self.args)
         return type(self).__name__ + "(" + argsstr + ")"
